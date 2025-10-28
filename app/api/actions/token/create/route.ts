@@ -87,7 +87,7 @@ export const OPTIONS = async () => new Response(null, { headers });
 export const POST = async (req: Request) => {
   try {
     const url = new URL(req.url);
-    const body: any = await req.json();
+    const body = (await req.json()) as Record<string, unknown>;
 
     if (!body.account) {
       return Response.json({ error: "User wallet not provided" }, { status: 400, headers });

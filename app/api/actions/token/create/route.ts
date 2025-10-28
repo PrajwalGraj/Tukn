@@ -67,7 +67,7 @@ export const GET = async (req: Request) => {
             },
             { type: "text", name: "initialSupply", label: "Initial Supply", required: true },
             { type: "text", name: "tokenDescription", label: "Token Description", required: true },
-            { type: "text", name: "tokenLogoURL", label: "Token Logo (Direct URL with .jpg/.png extension)", required: true },
+            { type: "text", name: "tokenLogoURL", label: "Token Logo (Direct URL with .jpg/.png extension)", required: false },
           ],
         },
       ],

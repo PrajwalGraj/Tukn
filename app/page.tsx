@@ -49,8 +49,8 @@ export default function Home() {
         <p className="max-w-2xl mx-auto text-gray-700 text-lg">
           Tukn is a launchpad that lets anyone create and launch tokens or memecoins directly from their socials (X) in just a few seconds. Built on Solana Blinks, it brings seamless on-chain token creation straight to your feed.
         </p>
-
-        <div className="relative w-full max-w-2xl mx-auto rounded-2xl overflow-hidden shadow-lg">
+        <br />
+        <div className="relative w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg">
           <video
             autoPlay
             loop
@@ -58,7 +58,7 @@ export default function Home() {
             playsInline
             className="w-full h-auto object-contain"
           >
-            <source src="/tukn-video.mp4" type="video/mp4" />
+            <source src="/tukn-X-video.mp4" type="video/mp4" />
           </video>
         </div>
       </section>

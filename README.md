@@ -25,7 +25,7 @@ Once done, the Tukn Blink will unfurl and become interactive directly on X.
   <a href="https://x.com/tuknfun/status/1984352846545125474" target="_blank">
     <img src="https://img.shields.io/badge/_Try_Tukn_on_X (Twitter)-1E1E1E?style=for-the-badge&logo=solana&logoColor=white" alt="Try on Dialect" />
   </a>
-  <a href="https://www.youtube.com/watch?v=E13Z5g1-EIc" target="_blank">
+  <a href="https://www.youtube.com/watch?v=6obTmFyyV14" target="_blank">
     <img src="https://img.shields.io/badge/_Demo_Video-DD2825?style=for-the-badge&logo=youtube&logoColor=white" alt="Demo Video" />
   </a>
   <a href="https://x.com/tuknfun" target="_blank">

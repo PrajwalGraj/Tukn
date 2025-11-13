@@ -29,15 +29,13 @@ export default function Home() {
         <p className="text-lg sm:text-xl text-gray-700 max-w-2xl mb-8">
           Tukn lets anyone create and launch tokens or memecoins — directly from X(Twitter) powered by Solana Blinks ⚡
         </p>
-        <a
-          href="https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Ftukn.vercel.app%2Fapi%2Factions%2Ftoken%2Fcreate&cluster=devnet"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/launch"
           className="group inline-flex items-center gap-2 bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-600 transition-all"
         >
-          Launch Tukn on Dialect
+          Launch Tukn
           <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
-        </a>
+        </Link>
 
       </main>
 

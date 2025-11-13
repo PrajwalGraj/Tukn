@@ -19,7 +19,7 @@ export default function LaunchPage() {
                 <p className="font-semibold text-red-800">Make the Blink visible on X</p>
                 <p className="text-sm text-red-700 mt-1">To make sure the Blink is visible on X, follow these two things 👇</p>
                 <ol className="list-decimal list-inside mt-2 text-sm text-red-700 space-y-1">
-                    <li>Use a desktop browser (Blinks won’t appear on mobile).</li>
+                    <li>Use a desktop browser (Blinks will not appear on mobile).</li>
                     <li>Enable the experimental Blink feature setting in your Solana wallet.</li>
                 </ol>
                 <p className="text-sm text-red-700 mt-2">Once you do these, the Blink should unfurl.</p>
@@ -27,7 +27,7 @@ export default function LaunchPage() {
 
             <main className="w-full max-w-3xl flex flex-col items-center gap-6">
                 <p className="text-center text-lg text-gray-700 max-w-xl">
-                    Choose from where you'd like to launch your token. <br /> You can launch directly from X (Twitter) or via Dialect.
+                    Choose where you want to launch your token. <br /> You can launch directly from X (Twitter) or via Dialect.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">

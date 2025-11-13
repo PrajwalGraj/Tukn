@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,15 +10,13 @@ export default function Home() {
           <Image src="/tukn-logo.png" alt="Tukn Logo" width={70} height={70} />
           <h1 className="text-4xl font-semibold">Tukn</h1>
         </div>
-        <a
-          href="https://dial.to/?action=solana-action%3Ahttps%3A%2F%2Ftukn.vercel.app%2Fapi%2Factions%2Ftoken%2Fcreate&cluster=devnet"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/launch"
           className="group inline-flex items-center gap-2 bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-600 transition-all"
         >
           Launch Tukn
           <span className="text-lg transition-transform group-hover:translate-x-1">→</span>
-        </a>
+        </Link>
 
 
       </header>
